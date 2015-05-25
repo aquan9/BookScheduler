@@ -14,7 +14,6 @@ while morebooks == True:
     titles.append(input("What is the name of the book?"))
     pages.append(int(input("How many pages are in this book?")))
     checkifdone = input("Another book?")
-    print("Printing Check if done --> " + checkifdone)
     if(checkifdone.upper() == "NO" or checkifdone.upper() == "N"):
                            morebooks = False
 
